@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Ovde cemo odraditi jednu formu</h2>
+        <form action="./form.html">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required><br><br>
+            
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" required><br><br>
+            
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="0" max="70" step="1" required><br><br>
+
+            <label for="birthdate">Birthdate</label>
+            <input type="date" name="birthdate" id="birthdate" min="1967-11-26" max="2025-10-15"><br><br>
+
+            <p>Favorite Fruit:</p>
+
+            <label for="banana">Banana</label>
+            <input type="checkbox" name="banana" id="banana"><br>
+
+            <label for="apple">Apple</label>
+            <input type="checkbox" name="apple" id="apple"><br>
+
+            <label for="ginger">Ginger</label>
+            <input type="checkbox" name="ginger" id="ginger" checked><br>
+
+            <label for="pineapple">Pineapple</label>
+            <input type="checkbox" name="pineapple" id="pineapple"><br>
+
+            <label for="watermelon">Watermelon</label>
+            <input type="checkbox" name="watermelon" id="watermelon"><br><br>
+
+            <p>Gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female"><br><br>
+
+            <p>Eye Color:</p>
+            <label for="eyeColor">Eye Color</label>
+            <select name="eyeColor" id="eyeColor">
+                <option value="green">Green</option>
+                <option value="brown" selected>Brown</option>
+                <option value="blue">Blue</option>
+            </select><br><br>
+
+            <label for="bio">Bio:</label>
+            <textarea name="bio" id="bio" cols="20" rows="10"></textarea><br><br>
+
+            <label for="file">File</label>
+            <input type="file" name="file" id="file"><br><br>
+
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color"><br><br>
+
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone"><br><br>
+
+            <button type="reset">Reset</button>
+            <button type="submit" >Submit</button>
+        </form>
+    </div>
+</body>
+</html>

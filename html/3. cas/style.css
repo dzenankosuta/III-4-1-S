@@ -1,0 +1,24 @@
+li {
+    color: green;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    /* text-align: left; Default */
+    /* text-align: center; */
+    /* text-align: right; */
+    text-align: justify;
+}
+
+div p {
+    font-size: 22px;
+}
+
+/* Primenjuje stilove samo na prvi p nakon div */
+div + p {
+    color: blue;
+}
+
