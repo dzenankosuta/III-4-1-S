@@ -7,14 +7,26 @@ h1 {
 }
 
 p {
-    /* text-align: left; Default */
+    /* text-align: left; poravnat uz levu ivicu - Default */
+    /* text-align: start; poravnat uz levu ivicu */
     /* text-align: center; */
-    /* text-align: right; */
-    text-align: justify;
+    /* text-align: right; poravnat uz desnu ivicu */
+    /* text-align: end; poravnat uz desnu ivicu */
+    text-align: justify; /* poravnat sa obe strane */ 
 }
 
-div p {
+/* div p {
     font-size: 22px;
+} */
+
+/* pozivanje klase (tackom) */
+.main p {
+    font-size: 22px;
+}
+
+/* stilovi za svaki p koji je direktno child element kontejnera sa klasom main */
+.main > p {
+    color: lightblue;
 }
 
 /* Primenjuje stilove samo na prvi p nakon div */
@@ -23,3 +35,15 @@ div + p {
 }
 
 /* komentar */
+
+/* pozivanje id_ja (#) */
+#main-id {
+    background-color: cadetblue;
+}
+
+.main {
+    background-color: rgb(211, 255, 141);
+}
+
+/* id ima prioritet u odnosu na klasu */
+
