@@ -1,0 +1,14 @@
+.main {
+    width: 600px;
+    height: 400px;
+    /* background-color: rgb(255, 229, 197); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY_xXMw8Nn7gXS70MK8zh1FwdW4DvCnD35aA&s");
+    /* background-repeat: repeat; default stanje */
+    background-repeat: no-repeat;
+    /* background-position: top; pozadina je na vrhu, a horizontalno je centrirana */
+    /* background-position: right; pozadina je uz desnu ivicu, a vertikalno je centrirana */
+    /* background-position: bottom; pozadina je na dnu, a horizontalno je centrirana */
+    /* background-position: left; pozadina je uz levu ivicu, a vertikalno je centrirana */
+    background-size: contain;
+    background-size: cover;
+}
