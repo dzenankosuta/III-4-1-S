@@ -1,0 +1,36 @@
+.main {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(92, 157, 255);
+    /* CSS BOX MODEL */
+
+    /* MARGIN */
+    /* margin: 40px; 40px se odnosi na marginu sa sve 4 strane */
+    /* margin: 10px 20px 30px 40px; top-right-bottom-left */
+    /* margin: 30px 20px 40px; top-right and left-bottom */
+    /* margin: 20px 40px; top and bottom - right and left */
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin: auto;
+
+    /* BORDER */
+    border: 2px solid red;
+    border-width: 5px;
+    /* border-style: dotted; tackice */
+    /* border-style: dashed; isprekidana linija */
+    /* border-style: double; dupla linija */
+    /* border-style: groove; 3D efekat */
+    border-color: brown;
+
+    /* PADDING */
+    /* padding: 40px; 40px se odnosi na paddingu sa sve 4 strane */
+    /* padding: 10px 20px 30px 40px; top-right-bottom-left */
+    /* padding: 30px 20px 40px; top-right and left-bottom */
+    /* padding: 20px 40px; top and bottom - right and left */
+    /* padding-top: 20px; */
+    /* padding-right: 10px; */
+    /* padding-bottom: 30px; */
+    /* padding-left: 40px; */
+}
