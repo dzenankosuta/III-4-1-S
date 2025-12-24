@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .main {
     width: 500px;
     height: 500px;
@@ -33,4 +39,8 @@
     /* padding-right: 10px; */
     /* padding-bottom: 30px; */
     /* padding-left: 40px; */
+
+    /* senka */
+    box-shadow: 3px 3px 10px purple; /* desna strana i dno */
+    /* box-shadow: -3px -3px 10px purple; leva strana i vrh */
 }
