@@ -9,8 +9,8 @@
     /* background-position: right; pozadina je uz desnu ivicu, a vertikalno je centrirana */
     /* background-position: bottom; pozadina je na dnu, a horizontalno je centrirana */
     /* background-position: left; pozadina je uz levu ivicu, a vertikalno je centrirana */
-    /* background-size: contain; */
-    background-size: cover;
+    /* background-size: contain; Ravlaci sliku po dijagonali dok se ne dodje do prvih ivica i tu se staje */
+    background-size: cover; /* Ravlaci sliku po dijagonali dok se ne pokrije ceo kontejner bez obzira na gubitak slike */
     /* background-size: 50% 100%; prva vrednost sirina, druga visina */
     background-size: 100% 100%;
 }
