@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Block level & Inline</title>
+</head>
+<body>
+    <div>
+        <h1>Elemente delimo na</h1>
+        <ol>
+            <li>Block Level elemente</li>
+            <li>Inline elemente</li>
+        </ol>
+        <p>ova podela je prema nacinu zauzimanja prostora na stranici.</p>
+    </div>
+    <div>
+        <h1>Block level elementi zauzimaju celu sirinu na stranici i smestaju se u novom redu.</h1>
+        <p>Block level elementima mozemo dodeliti width, height, margin, padding..</p>
+        <div class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolore!</p>
+        </div>
+        <a href="">link do sajta</a>
+
+        <table class="table">
+            <tr>
+                <th>Element</th>
+                <th>Opis</th>
+            </tr>
+            <tr>
+                <td>div</td>
+                <td>Kontejner</td>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td>Paragraf</td>
+            </tr>
+            <tr>
+                <td>h1-h6</td>
+                <td>Naslovi</td>
+            </tr>
+            <tr>
+                <td>section</td>
+                <td>Sekcija</td>
+            </tr>
+            <tr>
+                <td>header</td>
+                <td>Zaglavlje</td>
+            </tr>
+            <tr>
+                <td>footer</td>
+                <td>Podnozje</td>
+            </tr>
+            <tr>
+                <td>ul, ol, li</td>
+                <td>Liste</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1>Inline elementi</h1>
+        <p>Inline elementi zauzimaju samo potreban prostor.</p>
+        <p>Ovi elementi ne mogu imati width i height.</p>
+        <p>NAPOMENA. Unutar Inline elemenata child moze biti samo Inline element, dok unutar Block level elemenata child moze biti i Block level element i Inline element.</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span class="bold">Explicabo</span>, expedita magnam facere dolor culpa fuga veniam quod suscipit aperiam, rem facilis ex totam nam dignissimos cupiditate perferendis harum excepturi. Dolore.</p>
+
+         <table class="table">
+            <tr>
+                <th>Element</th>
+                <th>Opis</th>
+            </tr>
+            <tr>
+                <td>span</td>
+                <td>Inline kontejner</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>Link</td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td>SLika (Inline-Block)</td>
+            </tr>
+            <tr>
+                <td>strong</td>
+                <td>Podebljani text</td>
+            </tr>
+            <tr>
+                <td>button</td>
+                <td>Dugme</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
