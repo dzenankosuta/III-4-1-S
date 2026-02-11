@@ -1,0 +1,18 @@
+.dimensions {
+    background-color: coral;
+    /* width: 200px; pixeli */
+    /* height: 200px; */
+    /* width: 10cm; centimetri */
+    /* height: 10cm; */
+    /* width: 100mm; milimetri */
+    /* height: 100mm; */
+    width: 2in;
+    height: 2in;
+}
+
+.relative {
+    background-color: rgb(192, 134, 65);
+    width: 50vw;
+    height: 20vh;
+    font-size: 20px;    
+}
